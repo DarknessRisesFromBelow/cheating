@@ -1,0 +1,57 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+input {
+    background-color: var(--background);
+    color: white;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: ridge;
+}
+
+h3
+{
+	color: white;
+}
+
+label
+{
+	color: white;
+}
+
+.submitButton
+{
+	width: 20%;
+	height: 50px;
+	background-color: white;
+	border-radius: 3px;
+	color: black;
+}
+
+.inputClass
+{
+	width: 50%;	 
+	margin: 8px 0;	
+	padding: 12px 20px;
+	background: rgba(0, 0, 0, 0.0);	 
+	display: inline-block;	 
+	box-sizing: border-box;
+
+}
+
+.glitterbg
+{
+	background: rgb(226,0,255);
+	background: linear-gradient(121deg, rgba(226,0,255,1) 0%, rgba(181,0,220,1) 10%, rgba(96,0,156,1) 100%);
+}
